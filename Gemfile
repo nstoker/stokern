@@ -13,8 +13,14 @@ group :development, :test do
   gem 'sqlite3'
 end
 group :development do
+  gem 'guard-bundler'
+  gem 'guard-coffeescript'
+  gem 'guard-rails'
+  gem 'guard-rspec'
+  gem 'guard-rubocop'
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
+  gem 'rubocop', '~> 0.60.0', require: false
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
