@@ -10,10 +10,8 @@ Rails.application.config.content_security_policy do |policy|
   policy.img_src     :self, :https, :data
   policy.object_src  :none
   policy.script_src  :self, :https
-  policy.style_src   :self, :https
-
-  # Specify URI for violation reports
-  policy.report_uri "/csp-violation-report-endpoint"
+  policy.style_src   :self, :https, :unsafe_inline
+  policy.report_uri '/csp-reports'
 end
 
 # If you are using UJS then enable automatic nonce generation

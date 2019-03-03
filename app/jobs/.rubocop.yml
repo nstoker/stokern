@@ -1,0 +1,6 @@
+Metrics/AbcSize:
+  Exclude:
+    - 'create_csp_report_job.rb'
+Metrics/MethodLength:
+  Exclude:
+    - 'create_csp_report_job.rb'
