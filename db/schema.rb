@@ -10,21 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_03_03_140328) do
-
-  create_table "csp_reports", force: :cascade do |t|
-    t.string "blocked_uri"
-    t.string "disposition"
-    t.string "document_uri"
-    t.string "effective_directive"
-    t.string "violated_directive"
-    t.string "referrer"
-    t.integer "status_code", default: 0, null: false
-    t.json "raw_report", default: {}, null: false
-    t.string "raw_browser"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
+ActiveRecord::Schema.define(version: 2019_03_23_132535) do
 
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
@@ -35,7 +21,6 @@ ActiveRecord::Schema.define(version: 2019_03_03_140328) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "name"
-    t.integer "role"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
