@@ -1,0 +1,52 @@
+Layout/SpaceInsideArrayLiteralBrackets:
+  Exclude:
+    - 'environments/development.rb'
+    - 'environments/production.rb'
+    - 'initializers/devise.rb'
+Metrics/BlockLength:
+  Exclude:
+    - 'environments/development.rb'
+    - 'environments/production.rb'
+    - 'initializers/devise.rb'
+Metrics/LineLength:
+  Exclude:
+    - 'environments/development.rb'
+    - 'environments/production.rb'
+    - 'environments/test.rb'
+    - 'initializers/backtrace_silencers.rb'
+    - 'initializers/devise.rb'
+    - 'initializers/content_security_policy.rb'
+    - 'initializers/filter_parameter_logging.rb'
+    - 'initializers/wrap_parameters.rb'
+    - 'application.rb'
+    - 'puma.rb'
+Style/Documentation:
+  Exclude:
+    - 'application.rb'
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - 'environments/development.rb'
+    - 'environments/production.rb'
+    - 'environments/test.rb'
+    - 'initializers/application_controller_renderer.rb'
+    - 'initializers/assets.rb'
+    - 'initializers/backtrace_silencers.rb'
+    - 'initializers/content_security_policy.rb'
+    - 'initializers/cookies_serializer.rb'
+    - 'initializers/filter_parameter_logging.rb'
+    - 'initializers/inflections.rb'
+    - 'initializers/mime_types.rb'
+    - 'initializers/wrap_parameters.rb'
+    - 'application.rb'
+    - 'boot.rb'
+    - 'environment.rb'
+    - 'puma.rb'
+    - 'routes.rb'
+    - 'spring.rb'
+Style/StringLiterals:
+  Exclude:
+    - 'environments/production.rb'
+    - 'puma.rb'
+Style/SymbolArray:
+  Exclude:
+    - 'initializers/filter_parameter_logging.rb'
