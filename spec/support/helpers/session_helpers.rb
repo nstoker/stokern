@@ -14,7 +14,8 @@ module Features
       visit new_user_session_path
       fill_in 'Email', with: email
       fill_in 'Password', with: password
-      click_button 'Sign in'
+
+      click_button I18n.t 'devise.sessions.new.sign_in'
     end
   end
 end

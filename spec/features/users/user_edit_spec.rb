@@ -8,7 +8,7 @@ feature 'User edit', :devise do
   include Warden::Test::Helpers
   Warden.test_mode!
   let(:me) { create :user }
-  before { login_as @me, scope: :user }
+  before { login_as me, scope: :user }
 
   after(:each) do
     Warden.test_reset!
@@ -19,9 +19,9 @@ feature 'User edit', :devise do
   #   When I change my email address
   #   Then I see an account updated message
   scenario 'user changes email address' do
-    visit edit_user_registration_path(@me)
+    visit edit_user_registration_path(me)
     fill_in 'Email', with: 'newemail@example.com'
-    fill_in 'Current password', with: @me.password
+    fill_in 'Current password', with: me.password
     click_button 'Update'
     txts = [
       I18n.t('devise.registrations.updated'),
@@ -38,6 +38,6 @@ feature 'User edit', :devise do
     other = FactoryBot.create(:user, email: 'other@example.com')
     visit edit_user_registration_path(other)
     expect(page).to have_content 'Edit User'
-    expect(page).to have_field('Email', with: @me.email)
+    expect(page).to have_field('Email', with: me.email)
   end
 end
