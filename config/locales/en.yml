@@ -31,3 +31,10 @@
 
 en:
   hello: "Hello world"
+  visitors:
+    index:
+      title: 'Welcome'
+      intro: "The domain was available, and I couldn't resist it. Now all I need to do is work out what I want to use it for ;-)"
+  welcome:
+    index:
+      title: 'Welcome back, %{user_name}'
