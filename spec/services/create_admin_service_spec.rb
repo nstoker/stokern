@@ -14,7 +14,6 @@ describe 'create_admin_service' do
       # end
 
       it 'should have a name' do
-        puts ">> #{admin.inspect}"
         expect(admin.name).not_to be_blank
       end
     end
