@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.3] - 2019-03-31
+
+### Change
+
+Changed to use pg for production (oops).
+
 ## [0.0.2] - 2019-03-31
 
 This is a total rebuild of the project. Still no real content.
