@@ -3,8 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.5.3'
 gem 'bootswatch'
 gem 'it'
-gem 'rails', '~> 5.2.2', '>= 5.2.2.1'
-gem 'sqlite3'
+gem 'rails', '~> 5.2.3'
 gem 'puma', '~> 3.11'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
@@ -17,6 +16,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rb-readline'
+  gem 'sqlite3'
 end
 group :development do
   gem 'guard-rubocop'
@@ -34,7 +34,7 @@ group :test do
   gem 'selenium-webdriver'
 end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'bootstrap', '~> 4.0.0'
+gem 'bootstrap', '~> 4.3.1'
 gem 'devise'
 gem 'high_voltage'
 group :development do
@@ -56,4 +56,7 @@ end
 group :test do
   gem 'database_cleaner'
   gem 'launchy'
+end
+group :production do
+  gem 'pg'
 end
