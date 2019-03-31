@@ -11,6 +11,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Changes to documentation files to fix Codacy commit style issues.
 
+Add brakeman for a static analysis of security vulnerabilities.
+
 ## \[0.0.4] - 2019-03-31
 
 ### Updated
