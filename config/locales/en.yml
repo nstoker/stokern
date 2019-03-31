@@ -31,3 +31,17 @@
 
 en:
   hello: "Hello world"
+  menu:
+    brand_name: "Stoker.dev"
+    edit_account: 'Edit account'
+    home: 'Home'
+    sign_in: 'Sign in'
+    sign_out: 'Sign out'
+    users: 'Users'
+  visitors:
+    index:
+      title: 'Welcome'
+      intro: "The domain was available, and I couldn't resist it. Now all I need to do is work out what I want to use it for ;-)"
+  welcome:
+    index:
+      title: 'Welcome back, %{user_name}'
