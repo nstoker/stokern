@@ -30,7 +30,9 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  footer:
+    copyright: "\u00A9 %{year} N Stoker"
+    version: 'v %{version}'
   menu:
     brand_name: "Stoker.dev"
     edit_account: 'Edit account'
