@@ -28,7 +28,7 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 group :test do
-  gem 'chromedriver-helper'
+  gem 'webdriver'
   gem 'capybara', '>= 2.15'
   gem 'simplecov', require: false
   gem 'selenium-webdriver'
