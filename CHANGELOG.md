@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Updated
 
+Updated gems
+
 Changes to documentation files to fix Codacy commit style issues.
 
 Add brakeman for a static analysis of security vulnerabilities.
