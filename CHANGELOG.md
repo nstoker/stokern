@@ -9,7 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Updated
 
-Updated gems
+## \[0.0.5] - 2019-04-26
+
+### Updated
+
+Security fixes applied.
 
 Changes to documentation files to fix Codacy commit style issues.
 
