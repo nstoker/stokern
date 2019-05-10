@@ -26,6 +26,7 @@ group :development do
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'rubocop', '~> 0.68.1', require: false
+  gem 'rubocop-performance'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
