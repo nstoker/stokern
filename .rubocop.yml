@@ -1,2 +1,21 @@
-require: rubocop-performance
+# require: rubocop-performance
+# require: rubocop-rails
+
 inherit_from: .rubocop_todo.yml
+
+Layout/EmptyLines:
+  Exclude:
+    - 'db/migrate/**'
+Layout/EmptyLinesAroundBlockBody:
+  Exclude:
+    - 'db/**'
+Metrics/BlockLength:
+  Exclude:
+    - 'Guardfile'
+Metrics/LineLength:
+  Exclude:
+    - 'db/migration/**'
+    - 'db/schema.rb'
+Style/MixinUsage:
+  Exclude:
+    - bin/**
