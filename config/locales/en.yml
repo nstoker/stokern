@@ -40,6 +40,11 @@ en:
     sign_in: 'Sign in'
     sign_out: 'Sign out'
     users: 'Users'
+  projects:
+    messages:
+      created: Project was successfully created
+      destroyed: Project was successfully destroyed
+      updated: Project was successfully updated
   visitors:
     index:
       title: 'Welcome'
