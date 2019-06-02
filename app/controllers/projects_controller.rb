@@ -3,6 +3,7 @@
 # ProjectsController
 class ProjectsController < ApplicationController
   before_action :set_project, only: %i[show edit update destroy]
+  before_action :authenticate_user!
 
   # GET /projects
   # GET /projects.json
@@ -12,8 +13,7 @@ class ProjectsController < ApplicationController
 
   # GET /projects/1
   # GET /projects/1.json
-  def show
-  end
+  def show; end
 
   # GET /projects/new
   def new
@@ -21,8 +21,7 @@ class ProjectsController < ApplicationController
   end
 
   # GET /projects/1/edit
-  def edit
-  end
+  def edit; end
 
   # POST /projects
   # POST /projects.json
@@ -31,7 +30,7 @@ class ProjectsController < ApplicationController
 
     respond_to do |format|
       if @project.save
-        format.html { success @project, notice: 'created' }
+        format.html { success @project, 'created' }
         format.json { render :show, status: :created, location: @project }
       else
         format.html { render :new }
@@ -45,7 +44,7 @@ class ProjectsController < ApplicationController
   def update
     respond_to do |format|
       if @project.update(project_params)
-        format.html { success @project, notice: 'created' }
+        format.html { success @project, 'updated' }
         format.json { render :show, status: :ok, location: @project }
       else
         format.html { render :edit }
@@ -59,7 +58,7 @@ class ProjectsController < ApplicationController
   def destroy
     @project.destroy
     respond_to do |format|
-      format.html { success projects_url, notice: 'destroyed' }
+      format.html { success projects_url, 'destroyed' }
       format.json { head :no_content }
     end
   end
@@ -76,6 +75,6 @@ class ProjectsController < ApplicationController
   end
 
   def success(destination, message)
-    redirect_to destination, I18n.t("projects.messages.#{message}")
+    redirect_to destination, notice: I18n.t("projects.messages.#{message}")
   end
 end
