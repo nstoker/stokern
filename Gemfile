@@ -26,7 +26,7 @@ group :development do
   gem 'guard-rubocop'
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'rails-erd'
-  gem 'rubocop', '~> 0.70.0', require: false
+  gem 'rubocop', require: false
   gem 'rubocop-performance'
   gem 'rubocop-rails'
   gem 'spring'
