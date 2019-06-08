@@ -8,7 +8,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Unreleased
 
 Started work on Projects.
+
+Next up:
+
+* to improve display, and add cards to homepage.
+* Add a public/signed_in/private flag
+
 Rubocop style offences corrected (some pardoned as system generated)
+
+## 0.0.6 - 2019-06-08
+
+Updated rubocop to 0.71.0
 
 ## 0.0.5 - 2019-04-26
 
