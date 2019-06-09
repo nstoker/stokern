@@ -34,22 +34,10 @@ feature 'Edit Project' do
 
   describe 'visibility' do
     before { visit edit_project_path(project) }
-    context 'from personal' do
-      it 'should change to everyone' do
-        change_visibility_to 'everyone'
-      end
-      it 'should change to site' do
-        change_visibility_to 'site'
-      end
-    end
-    context 'from everyone' do
-      it 'should change to personal' do
-        change_visibility_to 'personal'
-      end
-      it 'should change to site' do
-        change_visibility_to 'site'
-      end
-    end
+    it { change_visibility_to 'everyone' }
+    it { change_visibility_to 'site' }
+    it { change_visibility_to 'personal' }
+    it { change_visibility_to 'site' }
   end
 
   scenario 'reject invalid details' do
@@ -60,11 +48,11 @@ feature 'Edit Project' do
     click_button 'Update'
     expect(page).not_to have_content I18n.t('projects.messages.updated')
   end
+end
 
-  def change_visibility_to(change_to)
-    select_in 'project_visibility', change_to
-    click_button 'Update Project'
-    project.reload
-    expect(project.visibility).to eq change_to
-  end
+def change_visibility_to(change_to)
+  select_in 'project_visibility', change_to
+  click_button 'Update Project'
+  project.reload
+  expect(project.visibility).to eq change_to
 end
