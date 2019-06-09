@@ -9,10 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Started work on Projects.
 
+Extended projects to have a public/site-wide/private flag
+
 Next up:
 
-* to improve display, and add cards to homepage.
-* Extended projects to have a public/site-wide/private flag
+Add cards to display projects
 
 Rubocop style offences corrected (some pardoned as system generated)
 
