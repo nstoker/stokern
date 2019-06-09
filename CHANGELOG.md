@@ -7,9 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
-Started work on Projects. Next up to improve display, and add cards to homepage.
+## 0.0.7 - 2019-06-09
 
-* Add a public/signed_in/private flag
+Created a projects option to display projects on the site. There is a public/private/signed-in user option for each project. The projects are displayed in a card format. Styling of the cards is still to do.
 
 Rubocop style offences corrected (some pardoned as system generated)
 

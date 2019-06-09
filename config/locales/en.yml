@@ -40,6 +40,15 @@ en:
     sign_in: 'Sign in'
     sign_out: 'Sign out'
     users: 'Users'
+  projects:
+    messages:
+      created: Project was successfully created
+      destroyed: Project was successfully destroyed
+      updated: Project was successfully updated
+    visibility:
+      personal: Private
+      site: Site wide
+      everyone: Public
   visitors:
     index:
       title: 'Welcome'

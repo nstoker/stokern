@@ -1,6 +1,7 @@
 <%# add navigation links to this file %>
 <% if user_signed_in? %>
-<%= link_to t('menu.edit_account'), edit_user_registration_path, class: 'nav-tiem nav-link' %>
+<%= link_to t('menu.projects'), projects_path, class: 'nav-item nav-link' %>
+<%= link_to t('menu.edit_account'), edit_user_registration_path, class: 'nav-item nav-link' %>
 <%= link_to t('menu.sign_out'), destroy_user_session_path, method: :delete, class: 'nav-item nav-link' %>
 <% else %>
 <%= link_to 'Sign in', new_user_session_path, class: 'nav-item nav-link' %>
