@@ -17,7 +17,7 @@ Metrics/LineLength:
   Exclude:
     - 'db/migration/**'
     - 'db/schema.rb'
-Style/FrozenStringLiteral:
+Style/FrozenStringLiteralComment:
   Exclude:
     - 'db/schema.rb'
 Style/MixinUsage:
