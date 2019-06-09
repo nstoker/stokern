@@ -17,7 +17,7 @@ feature 'New project', :devise do
     fill_in 'Name', with: project.name
     fill_in 'Outline', with: project.outline
     fill_in 'Notes', with: project.notes
-    page.find_by_id('project_visibility').find("option[value='site']").select_option
+    select_in 'project_visibility', 'site'
     click_button 'Create Project'
     expect(page).to have_content I18n.t('projects.messages.created')
   end
