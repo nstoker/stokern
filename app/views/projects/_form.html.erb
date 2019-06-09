@@ -36,6 +36,13 @@
     <%= form.text_field :notes %>
   </div>
 
+  <div class="field">
+    <%= form.label :visibility %>
+    <%= form.select(:visibility,
+                    Project.visibilities.keys.map {|role| [t("projects.visibility.#{role}"),role]},
+                    id: 'visibility') %>
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>

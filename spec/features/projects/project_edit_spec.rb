@@ -23,6 +23,38 @@ feature 'Project edit', :devise do
     expect(page).to have_content I18n.t('projects.messages.updated')
   end
 
+  describe 'change project visibility' do
+    before { visit edit_project_path(project) }
+    context 'from personal' do
+      it 'should change to everyone' do
+        page.find_by_id('project_visibility').find("option[value='everyone']").select_option
+        click_button 'Update Project'
+        project.reload
+        expect(project.visibility).to eq 'everyone'
+      end
+      it 'should change to site' do
+        page.find_by_id('project_visibility').find("option[value='site']").select_option
+        click_button 'Update Project'
+        project.reload
+        expect(project.visibility).to eq 'site'
+      end
+    end
+    context 'from everyone' do
+      it 'should change to personal' do
+        page.find_by_id('project_visibility').find("option[value='personal']").select_option
+        click_button 'Update Project'
+        project.reload
+        expect(project.visibility).to eq 'personal'
+      end
+      it 'should change to site' do
+        page.find_by_id('project_visibility').find("option[value='site']").select_option
+        click_button 'Update Project'
+        project.reload
+        expect(project.visibility).to eq 'site'
+      end
+    end
+  end
+
   scenario 'reject invalid details' do
     visit edit_project_path(project)
     fill_in 'Name', with: nil

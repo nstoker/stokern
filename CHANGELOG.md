@@ -12,7 +12,7 @@ Started work on Projects.
 Next up:
 
 * to improve display, and add cards to homepage.
-* Add a public/signed_in/private flag
+* Extended projects to have a public/site-wide/private flag
 
 Rubocop style offences corrected (some pardoned as system generated)
 

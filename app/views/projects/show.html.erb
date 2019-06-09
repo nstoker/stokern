@@ -22,6 +22,10 @@
   <strong>Notes:</strong>
   <%= @project.notes %>
 </p>
+<p>
+  <strong>Visibility:</strong>
+  <%= t "projects.visibility.#{@project.visibility}" %>
+</p>
 
 <%= link_to 'Edit', edit_project_path(@project) %> |
 <%= link_to 'Back', projects_path %>

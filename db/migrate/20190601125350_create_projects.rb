@@ -9,6 +9,7 @@ class CreateProjects < ActiveRecord::Migration[5.2]
       t.string :website
       t.string :source
       t.string :notes
+      t.integer :visibility
 
       t.timestamps
     end

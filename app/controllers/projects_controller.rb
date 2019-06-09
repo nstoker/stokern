@@ -71,7 +71,7 @@ class ProjectsController < ApplicationController
 
   def project_params
     params.require(:project)
-          .permit(:name, :outline, :website, :source, :notes)
+          .permit(:name, :outline, :website, :source, :notes, :visibility)
   end
 
   def success(destination, message)
