@@ -22,35 +22,32 @@ feature 'Project edit', :devise do
     click_button 'Update'
     expect(page).to have_content I18n.t('projects.messages.updated')
   end
+end
 
-  describe 'change project visibility' do
+feature 'Edit Project' do
+  include Warden::Test::Helpers
+  Warden.test_mode!
+  let(:me) { create :user }
+  let(:project) { create :project }
+  before { login_as me, scope: :user }
+  after { Warden.test_reset! }
+
+  describe 'visibility' do
     before { visit edit_project_path(project) }
     context 'from personal' do
       it 'should change to everyone' do
-        select_in 'project_visibility', 'everyone'
-        click_button 'Update Project'
-        project.reload
-        expect(project.visibility).to eq 'everyone'
+        change_visibility_to 'everyone'
       end
       it 'should change to site' do
-        select_in 'project_visibility', 'site'
-        click_button 'Update Project'
-        project.reload
-        expect(project.visibility).to eq 'site'
+        change_visibility_to 'site'
       end
     end
     context 'from everyone' do
       it 'should change to personal' do
-        select_in 'project_visibility', 'personal'
-        click_button 'Update Project'
-        project.reload
-        expect(project.visibility).to eq 'personal'
+        change_visibility_to 'personal'
       end
       it 'should change to site' do
-        select_in 'project_visibility', 'site'
-        click_button 'Update Project'
-        project.reload
-        expect(project.visibility).to eq 'site'
+        change_visibility_to 'site'
       end
     end
   end
@@ -62,5 +59,12 @@ feature 'Project edit', :devise do
     fill_in 'Notes', with: nil
     click_button 'Update'
     expect(page).not_to have_content I18n.t('projects.messages.updated')
+  end
+
+  def change_visibility_to(change_to)
+    select_in 'project_visibility', change_to
+    click_button 'Update Project'
+    project.reload
+    expect(project.visibility).to eq change_to
   end
 end
