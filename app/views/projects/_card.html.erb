@@ -1,0 +1,12 @@
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title"><%= project.name %></h5>
+    <h6 class='card-subtitle'><%= project.outline %></h6>
+    <p>Notes <%= project.notes %></p>
+    <%= link_to('Website', project.website, target: :blank) unless project.website.empty? %>
+    <%= link_to('Source code', project.source, target: :blank) unless project.source.empty? %>
+  </div>
+  <div class="card-footer">
+    <%= link_to('edit', edit_project_path(project), class: '') if current_user%>
+  </div>
+</div>

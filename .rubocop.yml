@@ -13,9 +13,19 @@ Metrics/BlockLength:
   Exclude:
     - 'Guardfile'
 Metrics/LineLength:
+  Max: 90
   Exclude:
     - 'db/migration/**'
+    - 'db/schema.rb'
+Style/FrozenStringLiteralComment:
+  Exclude:
     - 'db/schema.rb'
 Style/MixinUsage:
   Exclude:
     - bin/**
+Style/NumericLiterals:
+  Exclude:
+    - db/schema.rb
+Style/StringLiterals:
+  Exclude:
+    - db/schema.rb

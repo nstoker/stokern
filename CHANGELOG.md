@@ -7,9 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
-Started work on Projects. Next up to improve display, and add cards to homepage.
+Started work on Projects.
 
-* Add a public/signed_in/private flag
+Extended projects to have a public/site-wide/private flag
+
+Next up:
+
+Add cards to display projects
 
 Rubocop style offences corrected (some pardoned as system generated)
 
