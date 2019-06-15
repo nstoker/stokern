@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 0.0.8 - 2019-06-15
+
+Updated gems.
+
 ## 0.0.7 - 2019-06-09
 
 Created a projects option to display projects on the site. There is a public/private/signed-in user option for each project. The projects are displayed in a card format. Styling of the cards is still to do.
