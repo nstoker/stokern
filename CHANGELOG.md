@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 0.0.10 - 2019-06-26
+
+Update gems.
+Remove debug code.
+
 ## 0.0.9 - 2019-06-22
 
 Update gems: spring, faker, rubocop-performance.
