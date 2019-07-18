@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+Dependabot alert: rubocop.
+
 ## 0.0.14 - 209-07-12
 
 Dependabot alert: puma. Also updated nio4r.
