@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 Dependabot alerts: capybara, rubocop, rubocop-rails. Also updated mini_mime, regexp_parser.
 Regress brakeman to 4.5.0 due to issues with 4.5.1.
 
-## 0.0.14 - 209-07-12
+## 0.0.14 - 2019-07-12
 
 Dependabot alert: puma. Also updated nio4r.
 
