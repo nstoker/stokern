@@ -22,7 +22,7 @@ group :development, :test do
 end
 group :development do
   gem 'binding_of_caller'
-  gem 'brakeman'
+  gem 'brakeman', '< 4.5.1'
   gem 'guard-brakeman'
   gem 'guard-rubocop'
   gem 'listen', '>= 3.0.5', '< 3.2'
