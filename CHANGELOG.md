@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
-Dependabot alert: rubocop.
+Dependabot alerts: capybara, rubocop, rubocop-rails. Also updated mini_mime, regexp_parser.
 
 ## 0.0.14 - 209-07-12
 
