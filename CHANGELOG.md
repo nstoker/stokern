@@ -9,6 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Update `rails` to `2.6.3`.
 
+Dependabot alerts: brakeman (4.6.1), capybara (3.27.0), faker (2.1.0), rubocop (0.74), rubocop-performance (1.4.1)
+
 ## 0.0.15 - 2019-07-19
 
 Dependabot alerts: capybara, rubocop, rubocop-rails. Also updated mini_mime, regexp_parser.
