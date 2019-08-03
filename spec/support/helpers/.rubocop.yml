@@ -1,0 +1,5 @@
+inherit_from: ../../../rubocop.yml
+
+Rails/DynamicFindBy:
+  Whitelist:
+    - find_by_id
