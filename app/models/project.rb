@@ -6,9 +6,9 @@ class Project < ApplicationRecord
   enum visibility: %i[personal site everyone]
   after_initialize :set_default_visibility, if: :new_record?
 
-  validates_presence_of :name
+  validates :name, presence: true
   validates :name, uniqueness: { case_sensitive: false }
-  validates_presence_of :outline
+  validates :outline, presence: true
 
   def set_default_visibility
     self.visibility ||= :personal

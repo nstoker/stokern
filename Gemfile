@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
-ruby '2.5.3'
+ruby '2.6.3'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootswatch'
 gem 'coffee-rails', '~> 5.0'
@@ -22,7 +22,7 @@ group :development, :test do
 end
 group :development do
   gem 'binding_of_caller'
-  gem 'brakeman', '< 4.5.1'
+  gem 'brakeman' # , '< 4.5.1'
   gem 'guard-brakeman'
   gem 'guard-rubocop'
   gem 'listen', '>= 3.0.5', '< 3.2'
