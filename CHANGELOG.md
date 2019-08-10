@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+Dependabot update: puma (4.1.0)
+
+Fix rubocop offence.
+
 ## 0.0.16 - 2019-08-03
 
 Update `rails` to `2.6.3`.
