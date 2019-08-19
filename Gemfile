@@ -5,15 +5,15 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '2.6.3'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootswatch'
-gem 'coffee-rails', '~> 5.0'
-gem 'it'
+gem 'coffee-rails', '~> 5.0', '>= 5.0.0'
+gem 'it', '>= 1.0.0'
 gem 'jbuilder', '~> 2.9'
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.3.5'
 gem 'nokogiri', '~> 1.6', '>= 1.6.7.2'
 gem 'puma', '~> 4.1.0'
 gem 'rails', '~> 5.2.3'
-gem 'rails-ujs'
-gem 'sass-rails'
+gem 'rails-ujs', '>= 0.1.0'
+gem 'sass-rails', '~> 5.0', '>= 5.0.7'
 gem 'turbolinks', '~> 5'
 gem 'uglifier', '>= 1.3.0'
 group :development, :test do
@@ -33,16 +33,16 @@ group :development do
   gem 'rubocop-rails'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'web-console', '>= 3.3.0'
+  gem 'web-console', '>= 3.7.0'
 end
 group :test do
-  gem 'capybara', '>= 2.15'
+  gem 'capybara', '>= 3.27.0'
   gem 'selenium-webdriver'
   gem 'simplecov', require: false
   gem 'webdriver'
 end
 gem 'bootstrap', '~> 4.3.1'
-gem 'devise'
+gem 'devise', '>= 4.6.2'
 gem 'high_voltage'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 group :development do
@@ -57,9 +57,9 @@ group :development do
   gem 'spring-commands-rspec'
 end
 group :development, :test do
-  gem 'factory_bot_rails'
+  gem 'factory_bot_rails', '>= 5.0.2'
   gem 'faker'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 3.8.2'
 end
 group :test do
   gem 'database_cleaner'
