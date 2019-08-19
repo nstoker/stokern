@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 0.0.19 - 2019-08-19
+
+Dependabot update: rake (12.3.3), sass-rails (6.0.0), webdriver (0.3.0)
+
 ## 0.0.18 - 2019-08-14
 
 Dependabot update: capybara (3.28.0), faker (2.1.2), guard-brakeman (0.8.5), nokogiri (1.10.4), notiffany (0.1.3), rails-html-sanitizer (1.2.0), rubocop-rails (2.3.0), webdriver (0.2.0)
