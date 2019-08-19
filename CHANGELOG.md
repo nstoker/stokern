@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 0.0.20 - 2019-08-19
+
+Remote update failed heroku build. Fix applied.
+
 ## 0.0.19 - 2019-08-19
 
 Dependabot update: rake (12.3.3), sass-rails (6.0.0), webdriver (0.3.0)
