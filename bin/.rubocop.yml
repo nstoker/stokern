@@ -1,0 +1,24 @@
+inherit_from: ../.rubocop.yml
+
+Metrics/LineLength:
+  Exclude:
+    - setup
+Style/FrozenStringLiteralComment:
+  Exclude:
+    - rails
+    - rake
+    - rspec
+    - setup
+    - yarn
+Style/MixinUsage:
+  Exclude:
+    - update
+Style/RedundantBegin:
+  Exclude:
+    - yarn
+Style/StderrPuts:
+  Exclude:
+    - yarn
+Style/StringLiterals:
+  Exclude:
+    - yarn
