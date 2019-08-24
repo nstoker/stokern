@@ -3,7 +3,7 @@
 # Project
 class Project < ApplicationRecord
   # enum visibility: {personal: 0, users: 1, everyone: 2} #, prefix: :seen_by
-  enum visibility: %i[personal site everyone]
+  enum visibility: { personal: 0, site: 1, everyone: 2 }
   after_initialize :set_default_visibility, if: :new_record?
 
   validates :name, presence: true

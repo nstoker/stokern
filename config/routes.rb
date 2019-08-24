@@ -1,10 +1,14 @@
 Rails.application.routes.draw do
-  resources :projects
-  get 'welcome/index'
-  authenticated do
-    root to: 'welcome#index'
+  devise_scope :user do
+    get 'welcome/index'
+    authenticated :user do
+      root to: 'welcome#index', as: :authenticated_root
+      resources :projects
+    end
+    unauthenticated :user do
+      root to: 'visitors#index'
+    end
+    devise_for :users
+    resources :users
   end
-  root to: 'visitors#index'
-  devise_for :users
-  resources :users
 end

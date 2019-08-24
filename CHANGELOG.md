@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 0.0.21 - 2019-08-24
+
+Update to Rails 6. Gems changed: actioncable (6.0.0), actionmailbox (6.0.0), actionmailer (6.0.0), actionpack (6.0.0), actiontext (6.0.0),actionview (6.0.0), activejob (6.0.0), activemodel (6.0.0), activerecord (6.0.0), activestorage (6.0.0), activesupport (6.0.0), devise (4.7.0), rails (6.0.0), railties (6.0.0), sassc (2.1.0), web-console (4.0.1), and zeitwerk (2.1.9).
+
+Fix new Rubocop offences.
+
+Update `config/routes` to have explicit authorised route. Some links may still need to be fixed.
+
 ## 0.0.20 - 2019-08-19
 
 Remote update failed heroku build. Fix applied.

@@ -8,7 +8,11 @@
 
   <div class="collapse navbar-collapse" id="navbarColor01">
     <ul class="navbar-nav mr-auto">
-      <%= link_to t('menu.home'), root_path, class: 'nav-item nav-link' %>
+      <% if current_user %>
+        <%= link_to t('menu.home'), authenticated_root_path, class: 'nav-item nav-link' %>
+      <% else %>
+        <%= link_to t('menu.home'), root_path, class: 'nav-item nav-link' %>
+      <% end %>
       <%#= link_to 'About', '#', class: 'nav-item nav-link'%>
       <%= render 'layouts/navigation_links' %>
     </ul>
