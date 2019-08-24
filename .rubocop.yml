@@ -21,9 +21,6 @@ Metrics/LineLength:
 Style/FrozenStringLiteralComment:
   Exclude:
     - 'db/schema.rb'
-Style/MixinUsage:
-  Exclude:
-    - bin/**
 Style/NumericLiterals:
   Exclude:
     - db/schema.rb
