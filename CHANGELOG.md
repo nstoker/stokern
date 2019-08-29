@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 0.0.22 - 2019-08-29
+
+Dependabot alert: bootsnap (1.4.5), faker (2.2.0), rubocop-rails (2.3.1)
+
 ## 0.0.21 - 2019-08-24
 
 Update to Rails 6. Gems changed: actioncable (6.0.0), actionmailbox (6.0.0), actionmailer (6.0.0), actionpack (6.0.0), actiontext (6.0.0),actionview (6.0.0), activejob (6.0.0), activemodel (6.0.0), activerecord (6.0.0), activestorage (6.0.0), activesupport (6.0.0), devise (4.7.0), rails (6.0.0), railties (6.0.0), sassc (2.1.0), web-console (4.0.1), and zeitwerk (2.1.9).
