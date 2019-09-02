@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+Dependabot alert: childprocess (2.0.0), faker (2.2.1), parser (2.6.4.0), rubocop-rails (2.3.2), selenium-webdriver (3.142.4)
+
 ## 0.0.22 - 2019-08-29
 
 Dependabot alert: bootsnap (1.4.5), faker (2.2.0), rubocop-rails (2.3.1)
