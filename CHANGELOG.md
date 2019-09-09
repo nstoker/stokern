@@ -7,9 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 0.0.25 - 2019-09-09
+
+Dependabot alert: devise (4.7.1), faker (2.2.2), zeitwerk (2.1.10).
+
 ## 0.0.24 - 2019-09-03
 
-Dependabot alert: addressable (2.7.0), capybara (3.29.0), public_suffix (4.0.1).
+Dependabot alert: addressable (2.7.0), capybara (3.29.0), public_suffix (4.0.1)
 
 ## 0.0.23 - 2019-09-02
 
