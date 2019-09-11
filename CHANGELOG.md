@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+Dependabot alert: nio4r (2.5.1), puma (4.1.1).
+
 ## 0.0.25 - 2019-09-09
 
 Dependabot alert: devise (4.7.1), faker (2.2.2), zeitwerk (2.1.10).
