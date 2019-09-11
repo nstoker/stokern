@@ -42,7 +42,7 @@ group :test do
   gem 'webdriver'
 end
 gem 'bootstrap', '~> 4.3.1'
-gem 'devise', '>= 4.6.2'
+gem 'devise', '>= 4.7.1'
 gem 'high_voltage'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 group :development do
