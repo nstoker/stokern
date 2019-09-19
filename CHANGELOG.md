@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 0.0.28 - 2019-09-19
+
 Dependabot alert: turbolinks (5.2.1)
 
 ## 0.0.27 - 2019-09-17
