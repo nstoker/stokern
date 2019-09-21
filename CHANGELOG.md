@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
-Dependabot alert: faker (2.3.0)
+Dependabot alert: faker (2.4.0)
 
 ## 0.0.28 - 2019-09-19
 
