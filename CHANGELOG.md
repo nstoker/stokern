@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 0.0.30 - 2019-09-29
+
+Dependabot alert: erubi (1.9.0), factory_bot (5.1.0), factory_bot_rails (5.1.0), loofah (2.3.0), minitest (5.12.2), nio4r (2.5.2), puma (4.2.0), rubyzip (1.3.0), uglifier (4.2.0)
+
 ## 0.0.29 - 2019-09-21
 
 Dependabot alert: faker (2.4.0)
