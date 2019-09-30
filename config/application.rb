@@ -6,7 +6,7 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-APP_VERSION = '0.0.30'.freeze unless defined? APP_VERSION
+APP_VERSION = '0.0.31'.freeze unless defined? APP_VERSION
 
 module Stokern
   class Application < Rails::Application
