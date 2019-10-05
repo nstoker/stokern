@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 Dependabot alerts:
 
 * faker (2.5.0)
+* rubocop (0.75.0): also parser (2.6.5.0)
+
 
 ## 0.0.31 - 2019-09-30
 
