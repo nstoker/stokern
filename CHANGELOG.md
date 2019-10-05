@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+Dependabot alerts:
+
+* faker (2.5.0)
+
 ## 0.0.31 - 2019-09-30
 
 Dependabot alert: webdriver (0.4.0)
