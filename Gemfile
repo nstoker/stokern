@@ -26,7 +26,7 @@ group :development do
   gem 'brakeman' # , '< 4.5.1'
   gem 'guard-brakeman'
   gem 'guard-rubocop'
-  gem 'listen', '>= 3.0.5', '< 3.2'
+  gem 'listen'
   gem 'rails-erd'
   gem 'rubocop', require: false
   gem 'rubocop-performance'
