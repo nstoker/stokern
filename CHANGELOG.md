@@ -14,6 +14,7 @@ Dependabot alerts:
 * listen (3.2.0)
 * rubocop-performance (1.5.0)
 * selenium-webdriver (3.142.6): also childprocess (3.0.0), rake (13.0.0), rubyzip (2.0.0)
+* factory_bot_rails (5.1.1) also factory_bot (5.1.1)
 
 ## 0.0.31 - 2019-09-30
 
