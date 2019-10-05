@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 0.0.32 - 2019-10-05
+
+Dependabot alerts:
+
+* faker (2.5.0)
+* rubocop (0.75.0): also parser (2.6.5.0)
+* listen (3.2.0)
+* rubocop-performance (1.5.0)
+* selenium-webdriver (3.142.6): also childprocess (3.0.0), rake (13.0.0), rubyzip (2.0.0)
+* factory_bot_rails (5.1.1) also factory_bot (5.1.1)
+
 ## 0.0.31 - 2019-09-30
 
 Dependabot alert: webdriver (0.4.0)
