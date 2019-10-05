@@ -13,6 +13,7 @@ Dependabot alerts:
 * rubocop (0.75.0): also parser (2.6.5.0)
 * listen (3.2.0)
 * rubocop-performance (1.5.0)
+* selenium-webdriver (3.142.6): also childprocess (3.0.0), rake (13.0.0), rubyzip (2.0.0)
 
 ## 0.0.31 - 2019-09-30
 
