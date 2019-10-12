@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+Fix error in rails helper.
+
+Dependabot update:
+
+* 2019-10-12: faker (2.6.0). Also updated i18n (1.7.0)
+
 ## 0.0.33 - 2019-10-06
 
 Bump rails to 2.6.5 to mitigate against the following:
