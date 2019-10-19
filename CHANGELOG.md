@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+Dependabot updates:
+
+* 2019-10-19 brakeman (4.7.0)
+
 ## 0.0.34 - 2019-10-15
 
 Fix error in rails helper.
