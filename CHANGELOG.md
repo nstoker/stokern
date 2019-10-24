@@ -9,7 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Dependabot updates:
 
-* 2019-10-24 loofah (2.3.1) also updated crass (1.0.5)
+* 2019-10-24
+  * loofah (2.3.1) also updated crass (1.0.5)
+  * rspec-rails (4.0.0.beta3)
 * 2019-10-19 brakeman (4.7.0)
 
 ## 0.0.34 - 2019-10-15
