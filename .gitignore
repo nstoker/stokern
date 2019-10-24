@@ -39,7 +39,10 @@ db/*.sqlite3
 /doc/app/
 /doc/features.html
 /doc/specs.html
+/public/assets
 /public/cache
+/public/packs
+/public/packs-test
 /public/stylesheets/compiled
 /public/system/*
 /spec/tmp/*
@@ -82,3 +85,11 @@ pickle-email-*.html
 
 # tilde files are usually backup files from a text editor
 *~
+
+# Ignore node_modules
+node_modules/
+
+# Ignore yarn files
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
