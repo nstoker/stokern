@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 0.0.36 2019-11-04
+
 Dependabot updates:
 
 * rubocop (0.76.0). Also updated jaro_winkler (1.5.4)
