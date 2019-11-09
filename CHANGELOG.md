@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 0.0.37 2019-11-09
+
 Revamped visitors homepage as a landing page.
 
 Dependabot updates: rails (6.0.1) (and associated rails components), puma (4.3.0)
