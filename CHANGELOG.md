@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+Dependabot updates: rails (6.0.1) (and associated rails components), puma (4.3.0)
+
 ## 0.0.36 2019-11-04
 
 Dependabot updates:
