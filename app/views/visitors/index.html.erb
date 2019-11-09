@@ -1,3 +1,127 @@
-<h3><%= t '.title' %></h3>
-<p><%= t '.intro'%></p>
-<p><%= render 'projects/cards', projects: @projects %></p>
+<header class="masthead text-center text-white">
+    <div class="masthead-content">
+      <div class="container">
+        <h1 class="masthead-heading mb-0"><%= t 'visitors.index.title' %></h1>
+        <h2 class="masthead-subheading mb-0"><%= t 'visitors.index.intro' %></h2>
+        <%#
+          <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Learn More</a>
+        %>
+      </div>
+    </div>
+    <div class="bg-circle-1 bg-circle"></div>
+    <div class="bg-circle-2 bg-circle"></div>
+    <div class="bg-circle-3 bg-circle"></div>
+    <div class="bg-circle-4 bg-circle"></div>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <%= image_tag 'rocktrack100percent.jpg', class:'img-fluid rounded-circle', alt:'playing guitar'%>
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">Music</h2>
+            <p>
+              I play a little guitar and bass, and can be caught streaming on
+              Twitch.tv as <a href="https://www.twitch.tv/notes_from_the_dusty_end" target="_blank">
+                Notes from the Dusty End</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="p-5">
+            <%= image_tag 'scouting.jpg', class:"img-fluid rounded-circle", alt: 'pic' %>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="p-5">
+            <h2 class="display-4">Scouting</h2>
+            <p>I am a Beaver and Cub Scout leader with the
+            <a href="http://www.1stfatfieldscouts.org.uk/" target="_blank">First Fatfield Scout Group</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <%= image_tag 'pirate.jpg', class:'img-fluid rounded-circle', alt: 'pirate festival' %>
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">Pirate Festivals</h2>
+            <p>
+              I support the 
+              <a href="https://www.facebook.com/whitbypiratefestival/" target="_blank">
+                Whitby Pirate festival
+              </a>helping to raise money for the 
+              <a href="https://rnli.org/find-my-nearest/lifeboat-stations/whitby-lifeboat-station" target="_blank">
+                RNLI
+              </a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="p-5">
+            <%= image_tag 'panto.jpg', class:'img-fluid rounded-circle', alt:'pic' %>
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">Sound Guy</h2>
+            <p>For fun I drive a sound desk, mainly with:</p>
+            <ul>
+              <li>
+                The <a href="https://www.facebook.com/threeoddshoes" target="_blank">Three Odd Shoes</a> (book them - they are really good).
+              </li>
+              <li>
+                The <a href="https://www.facebook.com/pages/category/Community/Witton-Gilbert-Drama-Group-263591033764930/" target="_blank">Witton Gilbert Drama Group</a>
+                helping with their fundraising events and pantomime (oh yes I do!).
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <%= image_tag 'developer.jpg', class:'img-fluid rounded-circle', alt: 'working hard pic' %>
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">Software Engineer</h2>
+            <p>Weekdays usually find be behind a brace of screens writing code in Ruby on Rails, C++, Javascript, Golang, Python, or whatever else is necessary to get the job done (and yes, that occasionally means PHP!).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
