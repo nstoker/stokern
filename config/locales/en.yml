@@ -51,8 +51,8 @@ en:
       everyone: Public
   visitors:
     index:
-      title: 'Welcome'
-      intro: "The domain was available, and I couldn't resist it. Now all I need to do is work out what I want to use it for ;-)"
+      title: Neil Stoker
+      intro: A Man of Many Interests
   welcome:
     index:
       title: 'Welcome back, %{user_name}'
