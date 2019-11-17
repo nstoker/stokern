@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+Dependabot update: rubocop-performance (1.5.1) also updated parallel (1.19.0)
+
 ## 0.0.37 2019-11-09
 
 Revamped visitors homepage as a landing page.
