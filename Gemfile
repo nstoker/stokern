@@ -41,7 +41,7 @@ group :test do
   gem 'simplecov', require: false
   gem 'webdriver'
 end
-gem 'bootstrap', '~> 4.3.1'
+gem 'bootstrap', '~> 4.4.1'
 gem 'devise'
 gem 'high_voltage'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
