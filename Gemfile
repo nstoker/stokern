@@ -9,7 +9,7 @@ gem 'coffee-rails', '~> 5.0', '>= 5.0.0'
 gem 'it', '>= 1.0.0'
 gem 'jbuilder', '~> 2.9'
 gem 'jquery-rails', '>= 4.3.5'
-gem 'nokogiri', '~> 1.6', '>= 1.6.7.2'
+gem 'nokogiri', '~> 1.10'
 gem 'puma'
 gem 'rails', '~> 6.0'
 gem 'rails-ujs', '>= 0.1.0'
@@ -41,7 +41,7 @@ group :test do
   gem 'simplecov', require: false
   gem 'webdriver'
 end
-gem 'bootstrap', '~> 4.3.1'
+gem 'bootstrap', '~> 4.4.1'
 gem 'devise'
 gem 'high_voltage'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]

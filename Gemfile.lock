@@ -71,7 +71,7 @@ GEM
       debug_inspector (>= 0.0.1)
     bootsnap (1.4.5)
       msgpack (~> 1.0)
-    bootstrap (4.3.1)
+    bootstrap (4.4.1)
       autoprefixer-rails (>= 9.1.0)
       popper_js (>= 1.14.3, < 2)
       sassc-rails (>= 2.0.0)
@@ -353,7 +353,7 @@ DEPENDENCIES
   better_errors
   binding_of_caller
   bootsnap (>= 1.1.0)
-  bootstrap (~> 4.3.1)
+  bootstrap (~> 4.4.1)
   bootswatch
   brakeman
   byebug
@@ -374,7 +374,7 @@ DEPENDENCIES
   jquery-rails (>= 4.3.5)
   launchy
   listen
-  nokogiri (~> 1.6, >= 1.6.7.2)
+  nokogiri (~> 1.10)
   pg
   puma
   rails (~> 6.0)
