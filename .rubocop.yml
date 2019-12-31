@@ -13,7 +13,7 @@ Layout/EmptyLinesAroundBlockBody:
 Metrics/BlockLength:
   Exclude:
     - 'Guardfile'
-Metrics/LineLength:
+Layout/LineLength:
   Max: 90
   Exclude:
     - 'db/migration/**'

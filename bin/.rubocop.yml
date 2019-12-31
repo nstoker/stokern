@@ -1,6 +1,6 @@
 inherit_from: ../.rubocop.yml
 
-Metrics/LineLength:
+Layout/LineLength:
   Exclude:
     - setup
 Style/FrozenStringLiteralComment:

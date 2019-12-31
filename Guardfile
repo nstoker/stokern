@@ -29,7 +29,7 @@ guard :bundler do
   files.each { |file| watch(helper.real_path(file)) }
 end
 
-# rubocop:disable Metrics/LineLength
+# rubocop:disable Layout/LineLength
 # Guard-Rails supports a lot options with default values:
 # daemon: false                        # runs the server as a daemon.
 # debugger: false                      # enable ruby-debug gem.
@@ -45,7 +45,7 @@ end
 # zeus_plan: server                    # custom plan in zeus, only works with `zeus: true`.
 # zeus: false                          # enables zeus gem.
 # CLI: 'rails server'                  # customizes runner command. Omits all options except `pid_file`!
-# rubocop:enable Metrics/LineLength
+# rubocop:enable Layout/LineLength
 
 guard 'rails' do
   watch('Gemfile.lock')

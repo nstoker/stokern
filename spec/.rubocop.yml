@@ -1,4 +1,4 @@
-Metrics/LineLength:
+Layout/LineLength:
   Exclude:
     - 'rails_helper.rb'
 Style/ExpandPathArguments:
