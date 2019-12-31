@@ -8,7 +8,7 @@ Metrics/BlockLength:
     - 'environments/development.rb'
     - 'environments/production.rb'
     - 'initializers/devise.rb'
-Metrics/LineLength:
+Layout/LineLength:
   Exclude:
     - 'environments/development.rb'
     - 'environments/production.rb'
