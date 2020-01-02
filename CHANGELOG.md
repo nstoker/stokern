@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+Fix rubocop offences.
+
 ## 0.0.39 2019-12-31
 
 Updated ruby to 2.7.0 and rails to 6.0.2.1 also actioncable (6.0.2.1), actionmailbox (6.0.2.1), actionmailer (6.0.2.1), actionpack (6.0.2.1), actiontext (6.0.2.1), actionview (6.0.2.1), activejob (6.0.2.1), activemodel (6.0.2.1), activerecord (6.0.2.1), activestorage (6.0.2.1), activesupport (6.0.2.1), autoprefixer-rails (9.7.3), brakeman (4.7.2), builder (3.2.4), capybara (3.30.0), faker (2.10.0), ffi (1.11.3), guard (2.16.1), guard-bundler (3.0.0), json (2.3.0), listen (3.2.1), loofah (2.4.0), nokogiri (1.10.7), parallel (1.19.1), parser (2.7.0.1), pg (1.2.0), public_suffix (4.0.2), puma (4.3.1), rack (2.0.8), rails (6.0.2.1), railties (6.0.2.1), rake (13.0.1), rb-inotify (0.10.1), rspec (3.9.0), rspec-core (3.9.1), rspec-expectations (3.9.0), rspec-mocks (3.9.0), rspec-rails (3.9.0), rspec-support (3.9.2), rubocop (0.78.0), rubocop-performance (1.5.2), rubocop-rails (2.4.1), sassc (2.2.1), selenium-webdriver (3.142.7), sqlite3 (1.4.2), thor (1.0.1), tilt (2.0.10), tzinfo (1.2.6), webdriver (0.5.0), zeitwerk (2.2.2).
