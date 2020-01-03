@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 0.0.40 2020-01-03
+
 Fix rubocop offences.
 
 Updated pg gem - currently only affects production.
