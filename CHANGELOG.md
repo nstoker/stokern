@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 0.0.41 2020-03-07
+
+Security patch - update Puma [GHSA-33vf-4xgg-9r58](https://github.com/advisories/GHSA-33vf-4xgg-9r58)
+
 ## 0.0.40 2020-01-03
 
 Fix rubocop offences.
