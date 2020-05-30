@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 0.0.53 2020-05-30
+
+Forgot to bump app version, and also added a few too many revisions. Oops.
+
 ## 0.0.52 2020-05-30
 
 Update gemfiles.
