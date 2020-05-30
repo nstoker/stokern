@@ -7,7 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 0.0.52 2020-05-30
+
 Update gemfiles.
+
+Fix problen with running javascript.
+
+Workaround for issue with `it` gem translations inserting variables.
 
 ## 0.0.41 2020-03-07
 
