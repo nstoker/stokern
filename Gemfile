@@ -7,11 +7,11 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootswatch'
 gem 'coffee-rails', '~> 5.0', '>= 5.0.0'
 gem 'it', '>= 1.0.0'
-gem 'jbuilder', '~> 2.9'
+gem 'jbuilder', '~> 2.10', '>= 2.10.0'
 gem 'jquery-rails', '>= 4.3.5'
 gem 'nokogiri', '~> 1.10'
 gem 'puma'
-gem 'rails', '~> 6.0', '>= 6.0.2.2'
+gem 'rails', '~> 6.0', '>= 6.0.3.1'
 gem 'rails-ujs', '>= 0.1.0'
 gem 'sass-rails', '>= 6.0.0'
 gem 'turbolinks', '~> 5'
@@ -27,10 +27,10 @@ group :development do
   gem 'guard-brakeman'
   gem 'guard-rubocop'
   gem 'listen'
-  gem 'rails-erd'
+  gem 'rails-erd', '>= 1.6.0'
   gem 'rubocop', require: false
   gem 'rubocop-performance'
-  gem 'rubocop-rails'
+  gem 'rubocop-rails', '>= 2.5.0'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'web-console', '>= 4.0.1'
@@ -59,7 +59,7 @@ end
 group :development, :test do
   gem 'factory_bot_rails', '>= 5.1.1'
   gem 'faker'
-  gem 'rspec-rails', '>= 3.9.0'
+  gem 'rspec-rails', '>= 3.9.1'
 end
 group :test do
   gem 'database_cleaner'
