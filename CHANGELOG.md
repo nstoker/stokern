@@ -7,6 +7,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 0.0.53 2020-05-30
+
+Forgot to bump app version, and also added a few too many revisions. Oops.
+
+## 0.0.52 2020-05-30
+
+Update gemfiles.
+
+Fix problen with running javascript.
+
+Workaround for issue with `it` gem translations inserting variables.
+
 ## 0.0.41 2020-03-07
 
 Security patch - update Puma [GHSA-33vf-4xgg-9r58](https://github.com/advisories/GHSA-33vf-4xgg-9r58)

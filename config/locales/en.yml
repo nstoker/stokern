@@ -31,8 +31,9 @@
 
 en:
   footer:
-    copyright: "\u00A9 %{year} N Stoker"
-    version: 'v %{version}'
+    copyright: "\u00A9"
+    copyright_name: "N Stoker"
+    version: 'v '
   menu:
     brand_name: "Stoker.dev"
     edit_account: 'Edit account'

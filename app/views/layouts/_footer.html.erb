@@ -1,8 +1,9 @@
 <footer class="footer">
   <div class="container">
     <span class="text-muted float-right">
-      <%= it 'footer.version', version: APP_VERSION %>
+      <%= it 'footer.version' %>
+      <%= APP_VERSION %>
     </span>
     <span class="text-muted float-left">
-      <%= it 'footer.copyright', year: Time.current.year %>
+      <%= it 'footer.copyright' %>2015-<%= Time.current.year %> <%= it 'footer.copyright_name' %>
 </footer>
