@@ -8,7 +8,7 @@ gem 'bootswatch'
 gem 'coffee-rails', '~> 5.0', '>= 5.0.0'
 gem 'it', '>= 1.0.0'
 gem 'jbuilder', '~> 2.10', '>= 2.10.0'
-gem 'jquery-rails', '>= 4.3.5'
+gem 'jquery-rails', '>= 4.4.0'
 gem 'mini_racer'
 gem 'nokogiri', '~> 1.10'
 gem 'puma', '>= 4.3.5'
@@ -31,13 +31,13 @@ group :development do
   gem 'rails-erd', '>= 1.6.0'
   gem 'rubocop', require: false
   gem 'rubocop-performance'
-  gem 'rubocop-rails', '>= 2.5.0'
+  gem 'rubocop-rails', '>= 2.5.2'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'web-console', '>= 4.0.1'
+  gem 'web-console', '>= 4.0.2'
 end
 group :test do
-  gem 'capybara', '>= 3.27.0'
+  gem 'capybara', '>= 3.32.2'
   gem 'selenium-webdriver'
   gem 'simplecov', require: false
   gem 'webdriver'
@@ -47,7 +47,7 @@ gem 'devise', '>= 4.7.1'
 gem 'high_voltage'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 group :development do
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.7.1'
   gem 'guard-bundler'
   gem 'guard-rails'
   gem 'guard-rspec'
@@ -58,9 +58,9 @@ group :development do
   gem 'spring-commands-rspec'
 end
 group :development, :test do
-  gem 'factory_bot_rails', '>= 5.1.1'
+  gem 'factory_bot_rails', '>= 5.2.0'
   gem 'faker'
-  gem 'rspec-rails', '>= 3.9.1'
+  gem 'rspec-rails', '>= 4.0.1'
 end
 group :test do
   gem 'database_cleaner'
