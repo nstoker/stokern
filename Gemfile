@@ -12,7 +12,7 @@ gem 'jquery-rails', '>= 4.4.0'
 gem 'mini_racer'
 gem 'nokogiri', '~> 1.10'
 gem 'puma', '>= 4.3.5'
-gem 'rails', '~> 6.0', '>= 6.0.3.2'
+gem 'rails', '~> 6.0', '>= 6.0.3'
 gem 'rails-ujs', '>= 0.1.0'
 gem 'sass-rails', '>= 6.0.0'
 gem 'turbolinks', '~> 5'
@@ -34,7 +34,7 @@ group :development do
   gem 'rubocop-rails', '>= 2.5.2'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'web-console', '>= 4.0.2'
+  gem 'web-console', '>= 4.0'
 end
 group :test do
   gem 'capybara', '>= 3.32.2'
@@ -43,7 +43,7 @@ group :test do
   gem 'webdriver'
 end
 gem 'bootstrap', '~> 4.4.1'
-gem 'devise', '>= 4.7.1'
+gem 'devise', '>= 4.7'
 gem 'high_voltage'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 group :development do
@@ -58,7 +58,7 @@ group :development do
   gem 'spring-commands-rspec'
 end
 group :development, :test do
-  gem 'factory_bot_rails', '>= 5.2.0'
+  gem 'factory_bot_rails', '>= 6.0'
   gem 'faker'
   gem 'rspec-rails', '>= 4.0.1'
 end
