@@ -14,7 +14,7 @@ Metrics/BlockLength:
   Exclude:
     - 'Guardfile'
 Layout/LineLength:
-  Max: 90
+  Max: 120
   Exclude:
     - 'db/migration/**'
     - 'db/schema.rb'
