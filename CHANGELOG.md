@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 0.0.56 2020-10-10
+
 - Update gemfiles.
 - Applied fallback fix for i18n [https://github.com/ruby-i18n/i18n/releases/tag/v1.1.0](https://github.com/ruby-i18n/i18n/releases/tag/v1.1.0).
 - `autoprefixer-rails` has been [deprecated](https://github.com/ai/autoprefixer-rails/wiki/Deprecated). Sigh.
