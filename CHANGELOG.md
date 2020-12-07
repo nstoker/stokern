@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 0.0.57 2020-12-07
+
 - Updated gemfiles, trying to track down an issue with Dependabot being unable to update dependancies.
 - Switch to using postgres
 
