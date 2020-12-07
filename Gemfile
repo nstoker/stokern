@@ -42,12 +42,12 @@ group :test do
   gem 'simplecov', require: false
   gem 'webdriver'
 end
-gem 'bootstrap', '~> 4.4.1'
+gem 'bootstrap'
 gem 'devise', '>= 4.7.2'
 gem 'high_voltage'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 group :development do
-  gem 'better_errors', '>= 2.7.1'
+  gem 'better_errors'
   gem 'guard-bundler'
   gem 'guard-rails'
   gem 'guard-rspec'
