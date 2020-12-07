@@ -8,13 +8,16 @@ gem 'bootstrap'
 gem 'bootswatch'
 gem 'coffee-rails', '~> 5.0', '>= 5.0.0'
 gem 'devise', '>= 4.7.2'
+gem 'dotenv'
 gem 'high_voltage'
 gem 'it', '>= 2.0.0'
 gem 'jbuilder', '~> 2.10', '>= 2.10.0'
 gem 'jquery-rails', '>= 4.4.0'
 gem 'mini_racer'
-gem 'nokogiri', '~> 1.10'
+gem 'nokogiri', '>= 1.10'
+gem 'pg'
 gem 'puma', '>= 4.3.5'
+gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem 'rails', '~> 6.0', '>= 6.0.3.4'
 gem 'rails-ujs', '>= 0.1.0'
 gem 'sass-rails', '>= 6.0.0'
@@ -46,11 +49,11 @@ group :development do
 end
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
+  gem 'dotenv-rails'
   gem 'factory_bot_rails', '>= 6.1.0'
   gem 'faker'
   gem 'rspec-rails', '>= 4.0.1'
   gem 'rb-readline'
-  gem 'sqlite3'
 end
 group :test do
   gem 'capybara', '>= 3.32.2'
@@ -59,7 +62,4 @@ group :test do
   gem 'selenium-webdriver'
   gem 'simplecov', require: false
   gem 'webdriver'
-end
-group :production do
-  gem 'pg'
 end
