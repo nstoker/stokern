@@ -387,7 +387,7 @@ DEPENDENCIES
   pg
   puma (>= 4.3.5)
   rails (~> 6.0, >= 6.0.3.4)
-  rails-erd (>= 1.6.0)
+  rails-erd
   rails-ujs (>= 0.1.0)
   rails_layout
   rb-fchange
@@ -403,7 +403,7 @@ DEPENDENCIES
   simplecov
   spring
   spring-commands-rspec
-  spring-watcher-listen (~> 2.0.0)
+  spring-watcher-listen (>= 2.0.0)
   sqlite3
   turbolinks (~> 5)
   tzinfo-data

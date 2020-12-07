@@ -28,12 +28,12 @@ group :development do
   gem 'guard-brakeman'
   gem 'guard-rubocop'
   gem 'listen'
-  gem 'rails-erd', '>= 1.6.0'
+  gem 'rails-erd'
   gem 'rubocop', require: false
   gem 'rubocop-performance'
   gem 'rubocop-rails', '>= 2.5.2'
   gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'spring-watcher-listen', '>= 2.0.0'
   gem 'web-console', '>= 4.0.4'
 end
 group :test do
