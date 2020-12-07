@@ -7,14 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
-- Updated gemfiles, trying to track down an issue with Dependabot being unable to update dependancies.
+Updated gemfiles, trying to track down an issue with Dependabot being unable to update dependancies.
 
 ## 0.0.56 2020-10-10
 
-- Update gemfiles.
-- Applied fallback fix for i18n [https://github.com/ruby-i18n/i18n/releases/tag/v1.1.0](https://github.com/ruby-i18n/i18n/releases/tag/v1.1.0).
-- `autoprefixer-rails` has been [deprecated](https://github.com/ai/autoprefixer-rails/wiki/Deprecated). Sigh.
-- Several updates applied.
+Update gemfiles.
+Applied fallback fix for i18n [https://github.com/ruby-i18n/i18n/releases/tag/v1.1.0](https://github.com/ruby-i18n/i18n/releases/tag/v1.1.0).
+`autoprefixer-rails` has been [deprecated](https://github.com/ai/autoprefixer-rails/wiki/Deprecated). Sigh.
+Several updates applied.
 
 ## 0.0.55 2020-06-19
 
@@ -62,17 +62,17 @@ Dependabot updates: rails (6.0.1) (and associated rails components), puma (4.3.0
 
 Dependabot updates:
 
-* rubocop (0.76.0). Also updated jaro_winkler (1.5.4)
-* brakeman (4.7.1), faker (2.7.0), nokogiri (1.10.5)
+rubocop (0.76.0). Also updated jaro_winkler (1.5.4)
+brakeman (4.7.1), faker (2.7.0), nokogiri (1.10.5)
 
 ## 0.0.35 - 2019-10-24
 
 Dependabot updates:
 
-* 2019-10-24
-  * loofah (2.3.1) also updated crass (1.0.5)
-  * rspec-rails (4.0.0.beta3)
-* 2019-10-19 brakeman (4.7.0)
+2019-10-24
+  loofah (2.3.1) also updated crass (1.0.5)
+  rspec-rails (4.0.0.beta3)
+2019-10-19 brakeman (4.7.0)
 
 ## 0.0.34 - 2019-10-15
 
@@ -87,21 +87,21 @@ Dependabot update:
 
 Bump rails to 2.6.5 to mitigate against the following:
 
-* [CVE-2019-16255](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-16255)
-* [CVE-2019-15845](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15845)
-* [CVE-2019-16254](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-16254)
-* [CVE-2019-16201](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-16201)
+[CVE-2019-16255](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-16255)
+[CVE-2019-15845](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15845)
+[CVE-2019-16254](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-16254)
+[CVE-2019-16201](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-16201)
 
 ## 0.0.32 - 2019-10-05
 
 Dependabot alerts:
 
-* faker (2.5.0)
-* rubocop (0.75.0): also parser (2.6.5.0)
-* listen (3.2.0)
-* rubocop-performance (1.5.0)
-* selenium-webdriver (3.142.6): also childprocess (3.0.0), rake (13.0.0), rubyzip (2.0.0)
-* factory_bot_rails (5.1.1) also factory_bot (5.1.1)
+faker (2.5.0)
+rubocop (0.75.0): also parser (2.6.5.0)
+listen (3.2.0)
+rubocop-performance (1.5.0)
+selenium-webdriver (3.142.6): also childprocess (3.0.0), rake (13.0.0), rubyzip (2.0.0)
+factory_bot_rails (5.1.1) also factory_bot (5.1.1)
 
 ## 0.0.31 - 2019-09-30
 
