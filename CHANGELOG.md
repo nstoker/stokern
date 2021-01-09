@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## v0.0.58 2021-01-09
+
+- Updated gems. Performed a manual update for nokogiri as dependabot isn't managing to resolve the dependancies.
+
 ## 0.0.57 2020-12-07
 
 - Updated gemfiles, trying to track down an issue with Dependabot being unable to update dependancies.
@@ -83,8 +87,8 @@ Fix error in rails helper.
 
 Dependabot update:
 
-* 2019-10-12: faker (2.6.0). Also updated i18n (1.7.0)
-* 2019-10-15: puma (4.2.1), rspec-rails (3.8.3), rubocop (0.75.1). Also parallel (1.18.0), rails-html-sanitizer (1.3.0), rspec-expectations (3.8.6), rspec-mocks (3.8.2), rspec-support (3.8.3), zeitwerk (2.2.0)
+- 2019-10-12: faker (2.6.0). Also updated i18n (1.7.0)
+- 2019-10-15: puma (4.2.1), rspec-rails (3.8.3), rubocop (0.75.1). Also parallel (1.18.0), rails-html-sanitizer (1.3.0), rspec-expectations (3.8.6), rspec-mocks (3.8.2), rspec-support (3.8.3), zeitwerk (2.2.0)
 
 ## 0.0.33 - 2019-10-06
 
