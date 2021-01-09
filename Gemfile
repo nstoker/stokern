@@ -4,10 +4,10 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '~> 2.7'
 gem 'bootsnap', '>= 1.1.0', require: false
-gem 'bootstrap'
+gem 'bootstrap', '>= 4.5.3'
 gem 'bootswatch'
 gem 'coffee-rails', '~> 5.0', '>= 5.0.0'
-gem 'devise', '>= 4.7.2'
+gem 'devise', '>= 4.7.3'
 gem 'dotenv'
 gem 'high_voltage'
 gem 'it', '>= 2.0.0'
@@ -45,18 +45,18 @@ group :development do
   gem 'spring'
   gem 'spring-commands-rspec'
   gem 'spring-watcher-listen', '>= 2.0.0'
-  gem 'web-console', '>= 4.0.4'
+  gem 'web-console', '>= 4.1.0'
 end
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
-  gem 'dotenv-rails'
+  gem 'dotenv-rails', '>= 2.7.6'
   gem 'factory_bot_rails', '>= 6.1.0'
   gem 'faker'
   gem 'rspec-rails', '>= 4.0.1'
   gem 'rb-readline'
 end
 group :test do
-  gem 'capybara', '>= 3.32.2'
+  gem 'capybara', '>= 3.34.0'
   gem 'database_cleaner'
   gem 'launchy'
   gem 'selenium-webdriver'
