@@ -14,7 +14,7 @@ gem 'it', '>= 2.0.0'
 gem 'jbuilder', '~> 2.10', '>= 2.10.0'
 gem 'jquery-rails', '>= 4.4.0'
 gem 'mini_racer'
-gem 'nokogiri', '>= 1.10'
+gem "nokogiri", ">= 1.11.0.rc4"
 gem 'pg'
 gem 'puma', '>= 4.3.5'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
