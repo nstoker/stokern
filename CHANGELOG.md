@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## v0.0.58 2021-01-09
+
+- Updated gems. Performed a manual update for nokogiri as dependabot isn't managing to resolve the dependancies.
+
 ## 0.0.57 2020-12-07
 
 - Updated gemfiles, trying to track down an issue with Dependabot being unable to update dependancies.
