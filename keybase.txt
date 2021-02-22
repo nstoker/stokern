@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/nstoker
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.stoker.dev
+  * I am nstoker (https://keybase.io/nstoker) on keybase.
+  * I have a public key with fingerprint 294D 7FFE F3E1 6CBB 0475  8683 1276 1C97 631D F729
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101cb2be670d86b1fa3c633e98a5950ad079f71afcbd922c467814d3bb456ef61ca0a",
+      "fingerprint": "294d7ffef3e16cbb0475868312761c97631df729",
+      "host": "keybase.io",
+      "key_id": "12761c97631df729",
+      "kid": "0101cb2be670d86b1fa3c633e98a5950ad079f71afcbd922c467814d3bb456ef61ca0a",
+      "uid": "cbb26aab0449482d47ca149d39a93119",
+      "username": "nstoker"
+    },
+    "service": {
+      "hostname": "www.stoker.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1614029506,
+  "expire_in": 157680000,
+  "prev": "afee4669c3f8f9b10934e12d2a6eaa95e247c1d0b751a534785909578b28c4e4",
+  "seqno": 12,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMImAnicrVJbSBVBGD5mF9PEwogyKhjxqCm2s/c5SUYJJRL6UAR2Oc7uzOqi7R7P
+7jknO0l0IasHC8uysKjUghIi6kGCqMRQujxEdtGuEEQWhCVobzZ7srcem5dh/vm+
+7/++n78/PdmXmnR2YcFag+tdlfT4wdmIr1oEfXGg2aQRBOKgjiYuWk+o4wbrTAIC
+gIMc1DVeo7LCEVXWoIEFXRYEilQsIYnDhFOQoUBs6BpBPK+LsqJCkQiaJkoyNWSo
+Yw6DQmCYVg0Nh8Km5TJZHolEMQxqCBTKuqZxoiKpsipAXmEMpMgCJIbCI0astR2P
+wcxp2KFFps1q7BFM2PsH/j/7jiTkmEVexpj5FJGo8kRUdAxFRASEkQCh1zfi0LCF
+d1GGthzXrqNh0FQIWDFq6tSbqxdkGhCLxYr+YIoIjTJyKGy7tm7Xs79a1w05AY/r
+NoYSYKoFp2WCmmkRNkjGiNKwY9oWCECG1F3T04UyFDmepZMLAd0dMsM0aHoISZFV
+jh2vD2sXANigVJRlpAuGaiANckgQKeQJj2WKMZIozwJCwmmKBLEkiIoqIQ5Jiqrx
+qi5SEXjBGiybafPMJ65hmo5ZY2E3Eqagqe/+9pm+pFTf7FkzvA3zpc6d/3fvLu2Y
+M7UlUjGPXqheHu+1m9rXf/+ZvRLOinz4lrHhU/vRaG7P6VJ0AnfUDP86dmRqxuir
+1ujBruLPLSPdkwXP/P2j+bmLj5+5UZbXVT52xN/ZeXXNq/SJdaNpg9tePx368L76
+i/Rj8PnUgFLWsjPe3PiMjO/PP6BuLagVzj9a0VvuGq1pJe86bj2508YtyvLHQM4P
+t/TF9UySP7LgwMTwir2l/sqbwkBzf9XXlp7bN3Y4ebO7s807kpPxtrKvqkxqaE1+
+uCQ3c9muT8kPsq7RipxTiPOltF3sXp/b/Wb1vW130ea3l836PRszSx4Fy0NWcfGV
+w9LNyfSTL1PGlw6de/lx05jv0L7fY546mQ==
+=CvUm
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nstoker
+
+==================================================================
