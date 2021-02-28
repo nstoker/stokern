@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+- Re-started adding devise.
+- Re-enabled logging onto the system.
+- Force rails-erd to use the master branch to work with Rails 6.1.
+- Disabled user sign-up.
+
 ## v0.0.58 2021-01-09
 
 - Updated gems. Performed a manual update for nokogiri as dependabot isn't managing to resolve the dependancies.

@@ -30,7 +30,7 @@ group :development do
   gem 'guard-brakeman'
   gem 'guard-rubocop'
   gem 'listen'
-  gem 'rails-erd'
+  gem 'rails-erd', git: 'https://github.com/voormedia/rails-erd'
   gem 'rubocop', require: false
   gem 'guard-bundler'
   gem 'guard-rails'
