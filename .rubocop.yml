@@ -20,6 +20,8 @@ Layout/LineLength:
   Exclude:
     - 'db/migration/**'
     - 'db/schema.rb'
+Style/Copyright:
+  Enabled: true
 Style/FrozenStringLiteralComment:
   Exclude:
     - 'db/schema.rb'
