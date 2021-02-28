@@ -1,3 +1,13 @@
+GIT
+  remote: https://github.com/voormedia/rails-erd
+  revision: e41243f6d33303bfc9bdc1cff159bb1986cbee22
+  specs:
+    rails-erd (1.6.1)
+      activerecord (>= 4.2)
+      activesupport (>= 4.2)
+      choice (~> 0.2.0)
+      ruby-graphviz (~> 1.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -234,11 +244,6 @@ GEM
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
-    rails-erd (1.6.0)
-      activerecord (>= 4.2)
-      activesupport (>= 4.2)
-      choice (~> 0.2.0)
-      ruby-graphviz (~> 1.2)
     rails-html-sanitizer (1.3.0)
       loofah (~> 2.3)
     rails-ujs (0.1.0)
@@ -399,7 +404,7 @@ DEPENDENCIES
   pg
   puma (>= 4.3.5)
   rails (~> 6.0, >= 6.0.3.4)
-  rails-erd
+  rails-erd!
   rails-ujs (>= 0.1.0)
   rails_layout
   rb-fchange
