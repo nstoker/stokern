@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
-ruby '~> 2.7'
+ruby '3.0.0'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootstrap', '>= 4.5.3'
 gem 'bootswatch'
@@ -17,7 +17,6 @@ gem 'mini_racer'
 gem "nokogiri", ">= 1.11.0.rc4"
 gem 'pg'
 gem 'puma', '>= 4.3.5'
-gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem 'rails', '~> 6.0', '>= 6.0.3.4'
 gem 'rails-ujs', '>= 0.1.0'
 gem 'sass-rails', '>= 6.0.0'
@@ -31,7 +30,7 @@ group :development do
   gem 'guard-brakeman'
   gem 'guard-rubocop'
   gem 'listen'
-  gem 'rails-erd'
+  gem 'rails-erd', git: 'https://github.com/voormedia/rails-erd'
   gem 'rubocop', require: false
   gem 'guard-bundler'
   gem 'guard-rails'

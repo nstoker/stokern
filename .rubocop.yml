@@ -4,6 +4,9 @@ require:
 
 inherit_from: .rubocop_todo.yml
 
+AllCops:
+  NewCops: enable
+  EnabledByDefault: true
 Layout/EmptyLines:
   Exclude:
     - 'db/migrate/**'
@@ -18,6 +21,8 @@ Layout/LineLength:
   Exclude:
     - 'db/migration/**'
     - 'db/schema.rb'
+Style/Copyright:
+  Enabled: true
 Style/FrozenStringLiteralComment:
   Exclude:
     - 'db/schema.rb'

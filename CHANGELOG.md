@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## v0.0.60 2021-02-28
+
+- Update to Ruby 3.0.0 for heroku build pack 20
+
+## v0.0.59 2021-02-28
+
+- Re-started adding devise.
+- Re-enabled logging onto the system.
+- Force rails-erd to use the master branch to work with Rails 6.1.
+- Disabled user sign-up.
+
 ## v0.0.58 2021-01-09
 
 - Updated gems. Performed a manual update for nokogiri as dependabot isn't managing to resolve the dependancies.
