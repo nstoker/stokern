@@ -11,7 +11,7 @@ gem 'devise', '>= 4.7.3'
 gem 'dotenv'
 gem 'high_voltage'
 gem 'it', '>= 2.0.0'
-gem 'jbuilder', '~> 2.10', '>= 2.10.0'
+gem 'jbuilder', '~> 2.11'
 gem 'jquery-rails', '>= 4.4.0'
 gem 'mini_racer'
 gem "nokogiri", ">= 1.11.0.rc4"
