@@ -28,10 +28,10 @@ group :development do
   gem 'binding_of_caller'
   gem 'brakeman' # , '< 4.5.1'
   gem 'guard-brakeman'
-  gem 'guard-rubocop'
+  gem 'guard-rubocop', '>= 1.4.0'
   gem 'listen'
   gem 'rails-erd', git: 'https://github.com/voormedia/rails-erd'
-  gem 'rubocop', require: false
+  gem 'rubocop', '>= 1.11.0', require: false
   gem 'guard-bundler'
   gem 'guard-rails'
   gem 'guard-rspec'
@@ -39,8 +39,8 @@ group :development do
   gem 'rb-fchange', require: false
   gem 'rb-fsevent', require: false
   gem 'rb-inotify', require: false
-  gem 'rubocop-performance'
-  gem 'rubocop-rails', '>= 2.5.2'
+  gem 'rubocop-performance', '>= 1.10.1'
+  gem 'rubocop-rails', '>= 2.9.1'
   gem 'spring'
   gem 'spring-commands-rspec'
   gem 'spring-watcher-listen', '>= 2.0.0'
