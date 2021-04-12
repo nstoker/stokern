@@ -17,7 +17,7 @@ gem 'mini_racer'
 gem "nokogiri", ">= 1.11.0.rc4"
 gem 'pg'
 gem 'puma', '>= 4.3.5'
-gem 'rails', '~> 6.0', '>= 6.0.3.4'
+gem 'rails', '~> 6.1'
 gem 'rails-ujs', '>= 0.1.0'
 gem 'sass-rails', '>= 6.0.0'
 gem 'turbolinks', '~> 5'
