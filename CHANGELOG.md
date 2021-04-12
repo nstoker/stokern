@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## v0.0.61 2021-04-12
+
+- Update gems
+
 ## v0.0.60 2021-02-28
 
 - Update to Ruby 3.0.0 for heroku build pack 20
