@@ -9,4 +9,4 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 user = CreateAdminService.new.call
-Rails.logger.info 'CREATED ADMIN USER: ' + user.email
+Rails.logger.info("CREATED ADMIN USER: #{user.email}")

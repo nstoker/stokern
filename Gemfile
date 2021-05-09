@@ -14,7 +14,7 @@ gem 'it', '>= 2.0.0'
 gem 'jbuilder', '~> 2.11'
 gem 'jquery-rails', '>= 4.4.0'
 gem 'mini_racer'
-gem "nokogiri", ">= 1.11.0.rc4"
+gem 'nokogiri', '>= 1.11.0.rc4'
 gem 'pg'
 gem 'puma', '>= 4.3.5'
 gem 'rails', '~> 6.1', '>= 6.1.3.2'
@@ -28,17 +28,17 @@ group :development do
   gem 'binding_of_caller'
   gem 'brakeman' # , '< 4.5.1'
   gem 'guard-brakeman'
-  gem 'guard-rubocop', '>= 1.4.0'
-  gem 'listen'
-  gem 'rails-erd', git: 'https://github.com/voormedia/rails-erd'
-  gem 'rubocop', '>= 1.11.0', require: false
   gem 'guard-bundler'
   gem 'guard-rails'
   gem 'guard-rspec'
+  gem 'guard-rubocop', '>= 1.4.0'
+  gem 'listen'
+  gem 'rails-erd', git: 'https://github.com/voormedia/rails-erd'
   gem 'rails_layout'
   gem 'rb-fchange', require: false
   gem 'rb-fsevent', require: false
   gem 'rb-inotify', require: false
+  gem 'rubocop', '>= 1.11.0', require: false
   gem 'rubocop-performance', '>= 1.10.1'
   gem 'rubocop-rails', '>= 2.9.1'
   gem 'spring'
@@ -51,8 +51,8 @@ group :development, :test do
   gem 'dotenv-rails', '>= 2.7.6'
   gem 'factory_bot_rails', '>= 6.1.0'
   gem 'faker'
-  gem 'rspec-rails', '>= 5.0.1'
   gem 'rb-readline'
+  gem 'rspec-rails', '>= 5.0.1'
 end
 group :test do
   gem 'capybara', '>= 3.34.0'

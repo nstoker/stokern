@@ -29,12 +29,12 @@ guard :bundler do
   files.each { |file| watch(helper.real_path(file)) }
 end
 
-# rubocop:disable Layout/LineLength
 # Guard-Rails supports a lot options with default values:
 # daemon: false                        # runs the server as a daemon.
 # debugger: false                      # enable ruby-debug gem.
 # environment: 'development'           # changes server environment.
-# force_run: false                     # kills any process that's holding the listen port before attempting to (re)start Rails.
+# force_run: false                     # kills any process that's holding the listen port before attempting to
+#                                      # (re)start Rails.
 # pid_file: 'tmp/pids/[RAILS_ENV].pid' # specify your pid_file.
 # host: 'localhost'                    # server hostname.
 # port: 3000                           # server port number.
@@ -44,16 +44,16 @@ end
 # timeout: 30                          # waits untill restarting the Rails server, in seconds.
 # zeus_plan: server                    # custom plan in zeus, only works with `zeus: true`.
 # zeus: false                          # enables zeus gem.
-# CLI: 'rails server'                  # customizes runner command. Omits all options except `pid_file`!
-# rubocop:enable Layout/LineLength
+# CLI: 'rails server'                  # customizes runner command. Omits all options except `pid_file`
 
-guard 'rails' do
+PORT = ENV['PORT'] || '3000'
+guard 'rails', port: PORT, host: '0.0.0.0' do
   watch('Gemfile.lock')
   watch(%r{^(config|lib)/.*})
 end
 
 group :red_green_refactor, halt_on_fail: true do
-  # Note: The cmd option is now required due to the increasing number of ways
+  # NOTE: The cmd option is now required due to the increasing number of ways
   #       rspec may be run, below are examples of the most common uses.
   #  * bundler: 'bundle exec rspec'
   #  * bundler binstubs: 'bin/rspec'

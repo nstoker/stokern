@@ -2,33 +2,17 @@ require:
   - rubocop-performance
   - rubocop-rails
 
-inherit_from: .rubocop_todo.yml
-
 AllCops:
   NewCops: enable
-  EnabledByDefault: true
-Layout/EmptyLines:
   Exclude:
-    - 'db/migrate/**'
-Layout/EmptyLinesAroundBlockBody:
-  Exclude:
-    - 'db/**'
-Metrics/BlockLength:
-  Exclude:
+    - 'bin/*'
+    - 'db/**/**'
     - 'Guardfile'
+
+inherit_from: .rubocop_todo.yml
+
 Layout/LineLength:
   Max: 120
-  Exclude:
-    - 'db/migration/**'
-    - 'db/schema.rb'
 Style/Copyright:
-  Enabled: true
-Style/FrozenStringLiteralComment:
-  Exclude:
-    - 'db/schema.rb'
-Style/NumericLiterals:
-  Exclude:
-    - db/schema.rb
-Style/StringLiterals:
-  Exclude:
-    - db/schema.rb
+  Enabled: false
+
