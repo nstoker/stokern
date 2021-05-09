@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## v0.0.62 2021-05-09
+
+- Update gems
+- Rubocop seems to be a bit stricter now
+
 ## v0.0.61 2021-04-12
 
 - Update gems
