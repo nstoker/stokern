@@ -4,17 +4,17 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby '3.0.1'
 gem 'bootsnap', '>= 1.1.0', require: false
-gem 'bootstrap', '>= 4.6.0'
+gem 'bootstrap', '>= 5.0.0'
 gem 'bootswatch'
 gem 'coffee-rails', '~> 5.0', '>= 5.0.0'
-gem 'devise', '>= 4.7.3'
+gem 'devise', '>= 4.8.0'
 gem 'dotenv'
 gem 'high_voltage'
 gem 'it', '>= 2.0.0'
 gem 'jbuilder', '~> 2.11'
 gem 'jquery-rails', '>= 4.4.0'
 gem 'mini_racer'
-gem 'nokogiri', '>= 1.11.0.rc4'
+gem 'nokogiri', '>= 1.11.4'
 gem 'pg'
 gem 'puma', '>= 4.3.5'
 gem 'rails', '~> 6.1', '>= 6.1.3.2'
@@ -49,13 +49,13 @@ end
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'dotenv-rails', '>= 2.7.6'
-  gem 'factory_bot_rails', '>= 6.1.0'
+  gem 'factory_bot_rails', '>= 6.2.0'
   gem 'faker'
   gem 'rb-readline'
   gem 'rspec-rails', '>= 5.0.1'
 end
 group :test do
-  gem 'capybara', '>= 3.34.0'
+  gem 'capybara', '>= 3.35.3'
   gem 'database_cleaner'
   gem 'launchy'
   gem 'selenium-webdriver'
