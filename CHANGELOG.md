@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+- Update Gemfile.
+
 ## v0.0.64 2021-05-24
 
 - Update Gemfile to latest
