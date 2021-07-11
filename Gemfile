@@ -2,7 +2,7 @@
 
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
-ruby '3.0.1'
+ruby '3.0.2'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootstrap', '>= 5.0.0'
 gem 'bootswatch'
@@ -17,7 +17,7 @@ gem 'mini_racer'
 gem 'nokogiri', '>= 1.11.4'
 gem 'pg'
 gem 'puma', '>= 5.3.1'
-gem 'rails', '~> 6.1', '>= 6.1.3.2'
+gem 'rails', '~> 6.1'
 gem 'rails-ujs', '>= 0.1.0'
 gem 'sass-rails', '>= 6.0.0'
 gem 'turbolinks', '~> 5'

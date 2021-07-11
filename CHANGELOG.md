@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## v0.0.66 2021-07-11
+
+- Update Ruby to 3.0.2, Rails to 6.1.4.
+
 ## v0.0.65 2021-06-20
 
 - Update Gemfile.
