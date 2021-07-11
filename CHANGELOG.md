@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## v0.0.67 2021-07-11
+
+- Fixed issue with Heroku not handling a change to the launchy gem.
+- Added Procfile and rack_timeout.
+
 ## v0.0.66 2021-07-11
 
 - Update Ruby to 3.0.2, Rails to 6.1.4.
