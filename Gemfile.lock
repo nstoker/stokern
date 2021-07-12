@@ -215,7 +215,7 @@ GEM
       shellany (~> 0.0)
     orm_adapter (0.5.0)
     parallel (1.20.1)
-    parser (3.0.1.1)
+    parser (3.0.2.0)
       ast (~> 2.4.1)
     pg (1.2.3)
     popper_js (2.9.2)
@@ -292,7 +292,7 @@ GEM
       rspec-mocks (~> 3.10)
       rspec-support (~> 3.10)
     rspec-support (3.10.2)
-    rubocop (1.17.0)
+    rubocop (1.18.3)
       parallel (~> 1.10)
       parser (>= 3.0.0.0)
       rainbow (>= 2.2.2, < 4.0)
@@ -400,7 +400,7 @@ DEPENDENCIES
   it (>= 2.0.0)
   jbuilder (~> 2.11)
   jquery-rails (>= 4.4.0)
-  launchy
+  launchy (>= 2.5.0)
   listen
   mini_racer
   nokogiri (>= 1.11.4)
