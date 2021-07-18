@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## v0.0.68 2021-07-12
+
+- Update rails, rubocop, rubocop-rails, and rubocop-performance.
+- Fix rubocop issues.
+
 ## v0.0.67 2021-07-11
 
 - Fixed issue with Heroku not handling a change to the launchy gem.
